@@ -1,0 +1,60 @@
+/* background, color, font-family, font-size,
+ height, margin, padding, text-align*/
+ * {
+    box-sizing: border-box;
+ }
+
+body {
+    font-family:  Arial, Tahoma, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+p,li {
+    font-size: 16px;
+}
+/* i want the image to be on the left of my name*/
+img{
+margin: 18px;
+height: 10%;
+width: 20%
+}
+
+h1, h2, h3 {
+    text-align: center
+}
+    
+header {
+    background-color: rgb(190, 129, 129);
+    left: 0;
+    /* padding: 12% 0; */
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+main section {
+    height: auto;
+    padding-top: 20px;
+}
+main article {
+    padding-bottom: 40px;
+    background-color: lightgrey;
+}
+section {
+    background-color: #bbb;
+    min-height: 200px;
+    padding: 6% 0;
+}
+p{
+    text-align: center;
+}
+ol{
+    text-align: center;
+    list-style-position: inside;
+}
+footer{
+    background-color: rgb(190,129,129);
+    padding: 25px;
+    text-align: center;
+}
