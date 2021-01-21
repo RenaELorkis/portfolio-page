@@ -1,6 +1,6 @@
 /* background, color, font-family, font-size,
  height, margin, padding, text-align*/
- * {
+* {
     box-sizing: border-box;
  }
 
@@ -14,47 +14,61 @@ p,li {
     font-size: 16px;
 }
 /* i want the image to be on the left of my name*/
-img{
-margin: 18px;
-height: 10%;
-width: 20%
+img {
+    border-radius: 10%;
+    height: 10%;
+    margin: 15px;
+    width: 40%;
 }
 
 h1, h2, h3 {
-    text-align: center
+    text-align: center;
 }
     
 header {
-    background-color: rgb(190, 129, 129);
-    left: 0;
-    /* padding: 12% 0; */
+    background-color: rgb(121, 112, 112);
+    /* margin: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
     position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 10;
+    z-index: 20;
 }
-main section {
+
+.white-text {
+    color: #ffffff;
+}
+
+.center {
+    line-height: 1.4;
+    margin: auto;
+    width: 50%;
+}
+main {
     height: auto;
     padding-top: 20px;
-}
-main article {
     padding-bottom: 40px;
-    background-color: lightgrey;
+    padding-left:80px;
+    padding-right:80px;
+    background-color:rgb(209, 178, 211);
 }
-section {
+/*section {
     background-color: #bbb;
     min-height: 200px;
     padding: 6% 0;
-}
+}*/
 p{
     text-align: center;
+}
+ul {
+text-align: center ;
+list-style-position: inside;
 }
 ol{
     text-align: center;
     list-style-position: inside;
 }
 footer{
-    background-color: rgb(190,129,129);
-    padding: 25px;
+    background-color: rgb(121, 112, 112);
+    padding: 20px;
     text-align: center;
 }
