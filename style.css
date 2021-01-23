@@ -67,6 +67,18 @@ ol{
     text-align: center;
     list-style-position: inside;
 }
+/* mouse over link */
+a:link {
+    color: #FF0000;
+}
+a:visited {
+    color: #00FF00;
+}
+ a:hover,
+ a:focus {
+    color: #FF00FF;
+  }
+
 footer{
     background-color: rgb(121, 112, 112);
     padding: 20px;
